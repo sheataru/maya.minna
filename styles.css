@@ -1,0 +1,38 @@
+body {
+  margin: 30px;
+  background-color: #171717;
+  max-width: 720px;
+}
+
+h1 {
+  color: #FFBDE3;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  color: #FFFFFF;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  color: #FFFFFF;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #FFBDE3;
+  text-decoration: none;
+  margin-right: 5px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(8, 88px);
+  gap: 2px;
+  width: fit-content;
+}
